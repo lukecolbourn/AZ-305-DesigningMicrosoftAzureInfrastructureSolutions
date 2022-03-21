@@ -27,8 +27,11 @@ Tailwind Traders is planning on making some significant changes to their governa
 2. **New development project** 
 
     * What are the different ways Tailwind Traders could track costs for the new development project?
+    * * Tag new projects with a project key, and pull cost reports by tag.
+    * * Put new project in it's own resource group(s), to allow cost reporting by resource groups.
 
     * How are you ensuring compliance with the requirements for virtual machine sizing and naming? 
+    * * Create Azure policy with rules for VM size and naming convention - apply rules to new projects resources.
 
     * Propose at least two ways of meeting the requirements. Explain your final decision. 
 

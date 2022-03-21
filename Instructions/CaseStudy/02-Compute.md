@@ -26,14 +26,18 @@ Tailwind Traders would like to migrate their product catalog application to the 
 
 ## Tasks
 
-* **Front-end tier**. Which Azure compute service would you recommend for the front-end tier? Explain why you decided on your solution. 
-* Azure App Service
+**Front-end tier**. Which Azure compute service would you recommend for the front-end tier? Explain why you decided on your solution. 
+
+**Azure App Service**
 * .NET Core app can run in app service
 * Auto-scaling, so can scale up at peek times to maintain performance, and scale down during off hours to save money.
+* Can be kept in single region.
 
-* **Middle tier**. Which Azure compute service would you recommend for the middle tier? Explain why you decided on your solution. 
-* Logic app to trigger a work flow with help desk.
+**Middle tier**. Which Azure compute service would you recommend for the middle tier? Explain why you decided on your solution. 
+
+**Logic App**
 * This will allow the business logic to be designed by non-developers, to determine who needs to deal with the request.
 * Logic apps can send email if required.
+* Can be kept in single region.
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?

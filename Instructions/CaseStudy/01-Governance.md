@@ -36,6 +36,8 @@ How are you incorporating the Well Architected Framework pillars to produce a hi
 
 1. **Cost and accounting**  N/A
 
+![image](https://user-images.githubusercontent.com/6578121/159312061-13141296-4fc6-450d-9c39-c2165786d1bf.png)
+
 2. **New development project** 
 
     * Tag new project resources with a project key/identifier, and pull cost reports by tag.

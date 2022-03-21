@@ -36,7 +36,6 @@ How are you incorporating the Well Architected Framework pillars to produce a hi
 
 1. **Cost and accounting**
 ![image](https://user-images.githubusercontent.com/6578121/159335341-d53a71d9-5187-4dac-bd1e-51c0d80789cf.png)
-![image](https://user-images.githubusercontent.com/6578121/159334853-695ce709-4a9c-418c-a123-f763e7921dfa.png)
 
 
 2. **New development project** 

@@ -38,6 +38,9 @@ How are you incorporating the Well Architected Framework pillars to produce a hi
 
 2. **New development project** 
 
-    * Tag new projects resources with a project key/identifier, and pull cost reports by tag.
-    * Deploy the new projects resources in it's own resource group(s), and produce cost reporting by resource group.
-    * Create Azure policy with rules for VM size and naming convention - apply rules to new projects resources.
+    * Tag new project resources with a project key/identifier, and pull cost reports by tag.
+    * and/or, deploy the new projects resources in their own resource group(s), and produce cost reporting by resource group.
+    * Create prod and non-prod, subscriptions under the new projects business unit.
+    * Create 2 Azure policies, one for VM max size and one defining naming convention.
+    * Apply VM size policy to non-prod new project resource groups.
+    * Apply naming convention policy to all new project resource groups.

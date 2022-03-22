@@ -29,9 +29,8 @@ How are you incorporating the Well Architected Framework pillars to produce a hi
 
 ## Answer
 
-- CosmosDB
-- SQL API
-- Fast performance
-- Provides industry standard security
-- Auto scaling
-- Distributed for future traffic increase
+- Azure SQL DB - Business Critical, as no mention of large data amounts
+- Provides read replicas for reading from diffeerent regions
+- Assign sufficient resources to ensure good performance
+- AAD Identity for application Authentication
+- Firewall for internal application access

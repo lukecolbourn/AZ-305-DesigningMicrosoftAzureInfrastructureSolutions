@@ -26,3 +26,12 @@ Primary concerns of Tailwind Traders:
 2.	Diagram what you decide and explain your solution. 
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
+
+## Answer
+
+- CosmosDB
+- SQL API
+- Fast performance
+- Provides industry standard security
+- Auto scaling
+- Distributed for future traffic increase

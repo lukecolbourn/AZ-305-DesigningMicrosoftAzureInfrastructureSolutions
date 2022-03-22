@@ -46,20 +46,20 @@ How are you incorporating the Well Architected Framework pillars to produce a hi
 **Answer**
 
 **Media**
-Premium Block Blob
-Hot access
-Scales with the application
-Minimal security as publicly available
+* Premium Block Blob
+* Hot access
+* Scales with the application
+* Minimal security as publicly available
 
 **Marketing Literature**
-Azure Files
-File Sync so users can access from on-premise but applications can use the cloud cache over HTTPS.
+* Azure Files
+* File Sync so users can access from on-premise but applications can use the cloud cache over HTTPS.
 
 **Corporate Literature**
-Standard General Purpose Blob Storage
-Cool access tier
-Firewall policies for internal use only
-SAS for delegated application access
-Time based retention policies applied to meet legal requirements
-Legal hold policies can be applied when legal/HR need longer access
-Can create a policy to move files older than 1 year to an archive access tier to save on storage
+* Standard General Purpose Blob Storage
+* Cool access tier
+* Firewall policies for internal use only
+* SAS for delegated application access
+* Time based retention policies applied to meet legal requirements
+* Legal hold policies can be applied when legal/HR need longer access
+* Can create a policy to move files older than 1 year to an archive access tier to save on storage

@@ -29,7 +29,7 @@ Tailwind Traders wants to reduce storage costs by reducing duplicate content and
 
 1. Design a storage solution for Tailwind Traders. 
 
-      * What type of data is represented? 
+      * What type of data is represented?  **Unstructured**
 
       * What factors will you consider in your design?
 
@@ -42,3 +42,24 @@ Tailwind Traders wants to reduce storage costs by reducing duplicate content and
 2.  Your solution should consider the media, marketing literature, and corporate documents. Your recommendations may be different depending on the data. Be prepared to discuss your decisions. 
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
+
+**Answer**
+
+**Media**
+Premium Block Blob
+Hot access
+Scales with the application
+Minimal security as publicly available
+
+**Marketing Literature**
+Azure Files
+File Sync so users can access from on-premise but applications can use the cloud cache over HTTPS.
+
+**Corporate Literature**
+Standard General Purpose Blob Storage
+Cool access tier
+Firewall policies for internal use only
+SAS for delegated application access
+Time based retention policies applied to meet legal requirements
+Legal hold policies can be applied when legal/HR need longer access
+Can create a policy to move files older than 1 year to an archive access tier to save on storage

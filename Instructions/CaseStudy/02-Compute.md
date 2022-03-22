@@ -35,9 +35,10 @@ Tailwind Traders would like to migrate their product catalog application to the 
 
 **Middle tier**. Which Azure compute service would you recommend for the middle tier? Explain why you decided on your solution. 
 
-**Logic App**
-* This will allow the business logic to be designed by non-developers, to determine who needs to deal with the request.
-* Logic apps can send email if required.
+**Function App**
+* Serverless ideal for load requirements.
+* .NET code can be easily moved.
+* Can call SQL database.
 * Can be kept in single region.
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?

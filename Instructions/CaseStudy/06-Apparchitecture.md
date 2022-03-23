@@ -42,5 +42,6 @@ Design an architecture for the customer images to be added to the company websit
   * A subscriber will send an email if required.
   * A subscriber will update database.
 
-![image](https://user-images.githubusercontent.com/6578121/159740052-033e48c2-4b7a-4522-89a3-41179dee4393.png)
+![image](https://user-images.githubusercontent.com/6578121/159740528-4bce341f-5183-4bb0-bbc4-32c9392f6734.png)
+
  

@@ -33,13 +33,14 @@ Design an architecture for the customer images to be added to the company websit
   * Blob storage
 
 * How will you ensure that all images are scanned even when uploads are outpacing scanning?
-  * Use a message queue, the message will contain a reference to the blob and info about the user and product. A function shall pull messages, and call the API.
+  * Use a message Hub, the message will contain a reference to the blob and info about the user and product. A function shall pull messages, and call the API.
   * Function can be configured to run at a pace the API can handle.
   * Transactions can be used if theres a failure in the API.
 
 * Once images are approved and the catalog database is updated, how will the customer be notified? 
-  * An event will be raised, a subscriber will send an email if required.
+  * An event will be raised to a topic
+  * A subscriber will send an email if required.
+  * A subscriber will update database.
 
-How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
-
+![image](https://user-images.githubusercontent.com/6578121/159740052-033e48c2-4b7a-4522-89a3-41179dee4393.png)
  

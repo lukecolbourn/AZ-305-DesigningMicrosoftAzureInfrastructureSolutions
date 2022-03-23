@@ -33,8 +33,14 @@ Tailwind Traders is doing very well and is expanding their workforce. They have 
 **New user accounts**
 
   * Diagram the process for bringing in the acquired user accounts.
+    * Azure AD Connect
+    * Access review to give new users necessary permissions
+    * Enable MFA, add login and user policies
 
   * Diagram the process for adding the new partner accounts. 
+    * Enable B2B
+    * Invite partner accounts to join tenant
+    * Use RBAC to grant users access to necesary applications
 
   * For the above requirements, be sure to include any tools that will be used. List at least three benefits of your suggested solution. 
 
@@ -43,7 +49,15 @@ Tailwind Traders is doing very well and is expanding their workforce. They have 
 **New application access**
 
   * Provide an access solution for the business development application.
+    * Put connection string in KV
+    * Create service principle, grant access to KV
+    * Application retrieves DB credentials from KV at runtime
+    * Create firewall rule to allow VM access to Azure SQL DB
 
   * Provide an access solution for the on-premises resources.
+    * Put connection string in KV
+    * Create service principle, grant access to KV, and install certs on VM
+    * Application retrieves DB credentials from KV at runtime
+    * Create firewall rule to allow on-prem VM access to Azure SQL DB
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?

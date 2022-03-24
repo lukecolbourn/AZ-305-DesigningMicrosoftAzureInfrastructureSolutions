@@ -27,3 +27,5 @@ To put together the initial networking design, the Tailwind Traders Enterprise I
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
 
+![image](https://user-images.githubusercontent.com/6578121/159967804-5ff8a866-e157-4793-b55f-e13fc869c094.png)
+

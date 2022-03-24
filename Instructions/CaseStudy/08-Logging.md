@@ -67,7 +67,13 @@ The **Home Technology software** is currently provided and hosted by third parti
 
 1. Design a solution for the Project Management software. Be prepared to explain why you chose each component of the design and how it meets the solution requirements.
 
+![image](https://user-images.githubusercontent.com/6578121/159925030-b6869999-bf12-4f56-ab5c-f8a01faa4b05.png)
+
+
 2. Design an architecture for the New Home Technology Solution. Be prepared to explain why you chose each component of the design and how it meets the solution requirements.
+
+![image](https://user-images.githubusercontent.com/6578121/159926064-f6c5c7f8-46f8-4a8d-9c44-f0941d25a78b.png)
+
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
 
